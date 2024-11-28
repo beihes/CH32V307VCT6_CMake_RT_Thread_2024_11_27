@@ -80,7 +80,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu11"
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
 				},
 				{
 					"backtrace" : 4,
@@ -139,79 +139,79 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/User"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/User"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/App"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/App"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/APP/Drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/APP/Drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/App/Drivers/Led"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/App/Drivers/Led"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib/Define"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib/Define"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib/Inc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib/Inc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Core"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Core"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Debug"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Debug"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Peripheral/inc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Peripheral/inc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/ipc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/ipc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/finsh"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/finsh"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/include/libc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/include/libc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/include"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread"
 				}
 			],
 			"language" : "C",
@@ -293,6 +293,9 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
 					"backtrace" : 4,
 					"fragment" : "-march=rv32imafc"
 				},
@@ -349,79 +352,79 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/User"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/User"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/App"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/App"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/APP/Drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/APP/Drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/App/Drivers/Led"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/App/Drivers/Led"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib/Define"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib/Define"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMyLib/Inc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMyLib/Inc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Core"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Core"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Debug"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Debug"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Peripheral/inc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Peripheral/inc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/drivers"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/drivers"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/ipc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/drivers/include/ipc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/components/finsh"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/components/finsh"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/include/libc"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/include/libc"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/include"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread"
+					"path" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/rtthread"
 				}
 			],
 			"language" : "ASM",
@@ -438,6 +441,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -494,7 +501,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Ld/Link.ld",
+				"fragment" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/Ld/Link.ld",
 				"role" : "flags"
 			},
 			{

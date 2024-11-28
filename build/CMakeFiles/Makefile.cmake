@@ -102,7 +102,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/App_Windows/VisualStudio/Base_File/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake"
   "E:/App_Windows/VisualStudio/Base_File/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake"
   "E:/App_Windows/VisualStudio/Base_File/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/Generic.cmake"
-  "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/CMakeLists.txt"
+  "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/CMakeLists.txt"
   "CMakeFiles/3.29.5-msvc4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.5-msvc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.5-msvc4/CMakeCXXCompiler.cmake"

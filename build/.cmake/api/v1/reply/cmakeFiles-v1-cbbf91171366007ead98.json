@@ -1252,8 +1252,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/build",
-		"source" : "E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27"
+		"build" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27/build",
+		"source" : "E:/MyCode/VSCode/WCH/CH32V307VCT6_CMake_RT_Thread_2024_11_27"
 	},
 	"version" : 
 	{
