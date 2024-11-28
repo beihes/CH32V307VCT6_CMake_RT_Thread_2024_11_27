@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/Startup/startup_ch32v30x_D8C.S
+
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common/context_gcc.S
+cpuport.h
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common/cpuport.h
+
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common/cpuport.h
+
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common/interrupt_gcc.S
+cpuport.h
+E:/MyCode/VSCode/WCH/CH32V307_CMake_RT_Thread_2024_11_27/rtthread/libcpu/risc-v/common/cpuport.h
+
