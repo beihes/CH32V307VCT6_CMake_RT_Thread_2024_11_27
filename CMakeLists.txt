@@ -39,8 +39,21 @@ LINK_LIBRARIES(m)
 add_compile_options(-march=rv32imafc -mabi=ilp32f -mcmodel=medany -msmall-data-limit=8 -mno-save-restore)
 add_compile_options(-fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -fsingle-precision-constant)
 
+message("CMAKE_BUILD_TYPE: " ${CMAKE_BUILD_TYPE})
 # 编译等级
-add_compile_options(-O2)
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
+    message(VERBOSE "Maximum optimization for speed")
+    add_compile_options(-O3)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
+    message(VERBOSE "Maximum optimization for speed, debug info included")
+    add_compile_options(-O2 -g)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
+    message(VERBOSE "Maximum optimization for size")
+    add_compile_options(-Os)
+else ()
+    message(VERBOSE "Minimal optimization, debug info included")
+    add_compile_options(-Og -g)
+endif ()
 
 # 编译信息等级
 add_compile_options(-Wall)
@@ -49,6 +62,7 @@ add_compile_options(-Wall)
 include_directories(User
                     App
                     APP/Drivers
+                    App/Drivers/JY61P
                     App/Drivers/Led
                     CMyLib
                     CMyLib/Define
@@ -75,6 +89,7 @@ file(GLOB_RECURSE SOURCES
                 "User/*.cpp"
                 "User/*.c" 
                 "APP/Drivers/*.c"
+                "App/Drivers/JY61P/*.c"
                 "App/Drivers/Led/*.c"
                 "CMyLib/*.c"
                 "CMyLib/Src/*.c"
