@@ -72,6 +72,7 @@ include_directories(User
 
 # 源码文件
 file(GLOB_RECURSE SOURCES 
+                "User/*.cpp"
                 "User/*.c" 
                 "APP/Drivers/*.c"
                 "App/Drivers/Led/*.c"
