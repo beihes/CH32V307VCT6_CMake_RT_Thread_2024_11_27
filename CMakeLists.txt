@@ -29,7 +29,7 @@ else ()
 endif ()
 
 # 项目设置
-project(CH32V307VCT6_RT_Thread_test C CXX ASM)
+project(CH32V307VCT6_CMake_RT_Thread_2024_11_27 C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 

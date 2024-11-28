@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CH32V307VCT6_RT_Thread_test.elf
+# Target rules for targets named CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf
 
 # Build rule for target.
-CH32V307VCT6_RT_Thread_test.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH32V307VCT6_RT_Thread_test.elf
-.PHONY : CH32V307VCT6_RT_Thread_test.elf
+CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf
+.PHONY : CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf
 
 # fast build rule for target.
-CH32V307VCT6_RT_Thread_test.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build
-.PHONY : CH32V307VCT6_RT_Thread_test.elf/fast
+CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build
+.PHONY : CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf/fast
 
 App/Drivers/Led/led.obj: App/Drivers/Led/led.c.obj
 .PHONY : App/Drivers/Led/led.obj
 
 # target to build an object file
 App/Drivers/Led/led.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/App/Drivers/Led/led.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/App/Drivers/Led/led.c.obj
 .PHONY : App/Drivers/Led/led.c.obj
 
 App/Drivers/Led/led.i: App/Drivers/Led/led.c.i
@@ -142,7 +142,7 @@ App/Drivers/Led/led.i: App/Drivers/Led/led.c.i
 
 # target to preprocess a source file
 App/Drivers/Led/led.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/App/Drivers/Led/led.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/App/Drivers/Led/led.c.i
 .PHONY : App/Drivers/Led/led.c.i
 
 App/Drivers/Led/led.s: App/Drivers/Led/led.c.s
@@ -150,7 +150,7 @@ App/Drivers/Led/led.s: App/Drivers/Led/led.c.s
 
 # target to generate assembly for a file
 App/Drivers/Led/led.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/App/Drivers/Led/led.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/App/Drivers/Led/led.c.s
 .PHONY : App/Drivers/Led/led.c.s
 
 CMyLib/Src/cJSON.obj: CMyLib/Src/cJSON.c.obj
@@ -158,7 +158,7 @@ CMyLib/Src/cJSON.obj: CMyLib/Src/cJSON.c.obj
 
 # target to build an object file
 CMyLib/Src/cJSON.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/Src/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.obj
 .PHONY : CMyLib/Src/cJSON.c.obj
 
 CMyLib/Src/cJSON.i: CMyLib/Src/cJSON.c.i
@@ -166,7 +166,7 @@ CMyLib/Src/cJSON.i: CMyLib/Src/cJSON.c.i
 
 # target to preprocess a source file
 CMyLib/Src/cJSON.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/Src/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.i
 .PHONY : CMyLib/Src/cJSON.c.i
 
 CMyLib/Src/cJSON.s: CMyLib/Src/cJSON.c.s
@@ -174,7 +174,7 @@ CMyLib/Src/cJSON.s: CMyLib/Src/cJSON.c.s
 
 # target to generate assembly for a file
 CMyLib/Src/cJSON.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/Src/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/Src/cJSON.c.s
 .PHONY : CMyLib/Src/cJSON.c.s
 
 CMyLib/cMyLib.obj: CMyLib/cMyLib.c.obj
@@ -182,7 +182,7 @@ CMyLib/cMyLib.obj: CMyLib/cMyLib.c.obj
 
 # target to build an object file
 CMyLib/cMyLib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/cMyLib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/cMyLib.c.obj
 .PHONY : CMyLib/cMyLib.c.obj
 
 CMyLib/cMyLib.i: CMyLib/cMyLib.c.i
@@ -190,7 +190,7 @@ CMyLib/cMyLib.i: CMyLib/cMyLib.c.i
 
 # target to preprocess a source file
 CMyLib/cMyLib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/cMyLib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/cMyLib.c.i
 .PHONY : CMyLib/cMyLib.c.i
 
 CMyLib/cMyLib.s: CMyLib/cMyLib.c.s
@@ -198,7 +198,7 @@ CMyLib/cMyLib.s: CMyLib/cMyLib.c.s
 
 # target to generate assembly for a file
 CMyLib/cMyLib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/CMyLib/cMyLib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/CMyLib/cMyLib.c.s
 .PHONY : CMyLib/cMyLib.c.s
 
 Core/core_riscv.obj: Core/core_riscv.c.obj
@@ -206,7 +206,7 @@ Core/core_riscv.obj: Core/core_riscv.c.obj
 
 # target to build an object file
 Core/core_riscv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Core/core_riscv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Core/core_riscv.c.obj
 .PHONY : Core/core_riscv.c.obj
 
 Core/core_riscv.i: Core/core_riscv.c.i
@@ -214,7 +214,7 @@ Core/core_riscv.i: Core/core_riscv.c.i
 
 # target to preprocess a source file
 Core/core_riscv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Core/core_riscv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Core/core_riscv.c.i
 .PHONY : Core/core_riscv.c.i
 
 Core/core_riscv.s: Core/core_riscv.c.s
@@ -222,7 +222,7 @@ Core/core_riscv.s: Core/core_riscv.c.s
 
 # target to generate assembly for a file
 Core/core_riscv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Core/core_riscv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Core/core_riscv.c.s
 .PHONY : Core/core_riscv.c.s
 
 Debug/debug.obj: Debug/debug.c.obj
@@ -230,7 +230,7 @@ Debug/debug.obj: Debug/debug.c.obj
 
 # target to build an object file
 Debug/debug.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Debug/debug.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Debug/debug.c.obj
 .PHONY : Debug/debug.c.obj
 
 Debug/debug.i: Debug/debug.c.i
@@ -238,7 +238,7 @@ Debug/debug.i: Debug/debug.c.i
 
 # target to preprocess a source file
 Debug/debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Debug/debug.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Debug/debug.c.i
 .PHONY : Debug/debug.c.i
 
 Debug/debug.s: Debug/debug.c.s
@@ -246,7 +246,7 @@ Debug/debug.s: Debug/debug.c.s
 
 # target to generate assembly for a file
 Debug/debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Debug/debug.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Debug/debug.c.s
 .PHONY : Debug/debug.c.s
 
 Peripheral/src/ch32v30x_adc.obj: Peripheral/src/ch32v30x_adc.c.obj
@@ -254,7 +254,7 @@ Peripheral/src/ch32v30x_adc.obj: Peripheral/src/ch32v30x_adc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.obj
 .PHONY : Peripheral/src/ch32v30x_adc.c.obj
 
 Peripheral/src/ch32v30x_adc.i: Peripheral/src/ch32v30x_adc.c.i
@@ -262,7 +262,7 @@ Peripheral/src/ch32v30x_adc.i: Peripheral/src/ch32v30x_adc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.i
 .PHONY : Peripheral/src/ch32v30x_adc.c.i
 
 Peripheral/src/ch32v30x_adc.s: Peripheral/src/ch32v30x_adc.c.s
@@ -270,7 +270,7 @@ Peripheral/src/ch32v30x_adc.s: Peripheral/src/ch32v30x_adc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_adc.c.s
 .PHONY : Peripheral/src/ch32v30x_adc.c.s
 
 Peripheral/src/ch32v30x_bkp.obj: Peripheral/src/ch32v30x_bkp.c.obj
@@ -278,7 +278,7 @@ Peripheral/src/ch32v30x_bkp.obj: Peripheral/src/ch32v30x_bkp.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_bkp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.obj
 .PHONY : Peripheral/src/ch32v30x_bkp.c.obj
 
 Peripheral/src/ch32v30x_bkp.i: Peripheral/src/ch32v30x_bkp.c.i
@@ -286,7 +286,7 @@ Peripheral/src/ch32v30x_bkp.i: Peripheral/src/ch32v30x_bkp.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_bkp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_bkp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.i
 .PHONY : Peripheral/src/ch32v30x_bkp.c.i
 
 Peripheral/src/ch32v30x_bkp.s: Peripheral/src/ch32v30x_bkp.c.s
@@ -294,7 +294,7 @@ Peripheral/src/ch32v30x_bkp.s: Peripheral/src/ch32v30x_bkp.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_bkp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_bkp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_bkp.c.s
 .PHONY : Peripheral/src/ch32v30x_bkp.c.s
 
 Peripheral/src/ch32v30x_can.obj: Peripheral/src/ch32v30x_can.c.obj
@@ -302,7 +302,7 @@ Peripheral/src/ch32v30x_can.obj: Peripheral/src/ch32v30x_can.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_can.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_can.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.obj
 .PHONY : Peripheral/src/ch32v30x_can.c.obj
 
 Peripheral/src/ch32v30x_can.i: Peripheral/src/ch32v30x_can.c.i
@@ -310,7 +310,7 @@ Peripheral/src/ch32v30x_can.i: Peripheral/src/ch32v30x_can.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_can.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_can.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.i
 .PHONY : Peripheral/src/ch32v30x_can.c.i
 
 Peripheral/src/ch32v30x_can.s: Peripheral/src/ch32v30x_can.c.s
@@ -318,7 +318,7 @@ Peripheral/src/ch32v30x_can.s: Peripheral/src/ch32v30x_can.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_can.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_can.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_can.c.s
 .PHONY : Peripheral/src/ch32v30x_can.c.s
 
 Peripheral/src/ch32v30x_crc.obj: Peripheral/src/ch32v30x_crc.c.obj
@@ -326,7 +326,7 @@ Peripheral/src/ch32v30x_crc.obj: Peripheral/src/ch32v30x_crc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.obj
 .PHONY : Peripheral/src/ch32v30x_crc.c.obj
 
 Peripheral/src/ch32v30x_crc.i: Peripheral/src/ch32v30x_crc.c.i
@@ -334,7 +334,7 @@ Peripheral/src/ch32v30x_crc.i: Peripheral/src/ch32v30x_crc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.i
 .PHONY : Peripheral/src/ch32v30x_crc.c.i
 
 Peripheral/src/ch32v30x_crc.s: Peripheral/src/ch32v30x_crc.c.s
@@ -342,7 +342,7 @@ Peripheral/src/ch32v30x_crc.s: Peripheral/src/ch32v30x_crc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_crc.c.s
 .PHONY : Peripheral/src/ch32v30x_crc.c.s
 
 Peripheral/src/ch32v30x_dac.obj: Peripheral/src/ch32v30x_dac.c.obj
@@ -350,7 +350,7 @@ Peripheral/src/ch32v30x_dac.obj: Peripheral/src/ch32v30x_dac.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dac.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dac.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.obj
 .PHONY : Peripheral/src/ch32v30x_dac.c.obj
 
 Peripheral/src/ch32v30x_dac.i: Peripheral/src/ch32v30x_dac.c.i
@@ -358,7 +358,7 @@ Peripheral/src/ch32v30x_dac.i: Peripheral/src/ch32v30x_dac.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dac.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.i
 .PHONY : Peripheral/src/ch32v30x_dac.c.i
 
 Peripheral/src/ch32v30x_dac.s: Peripheral/src/ch32v30x_dac.c.s
@@ -366,7 +366,7 @@ Peripheral/src/ch32v30x_dac.s: Peripheral/src/ch32v30x_dac.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dac.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dac.c.s
 .PHONY : Peripheral/src/ch32v30x_dac.c.s
 
 Peripheral/src/ch32v30x_dbgmcu.obj: Peripheral/src/ch32v30x_dbgmcu.c.obj
@@ -374,7 +374,7 @@ Peripheral/src/ch32v30x_dbgmcu.obj: Peripheral/src/ch32v30x_dbgmcu.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dbgmcu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.obj
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.obj
 
 Peripheral/src/ch32v30x_dbgmcu.i: Peripheral/src/ch32v30x_dbgmcu.c.i
@@ -382,7 +382,7 @@ Peripheral/src/ch32v30x_dbgmcu.i: Peripheral/src/ch32v30x_dbgmcu.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dbgmcu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.i
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.i
 
 Peripheral/src/ch32v30x_dbgmcu.s: Peripheral/src/ch32v30x_dbgmcu.c.s
@@ -390,7 +390,7 @@ Peripheral/src/ch32v30x_dbgmcu.s: Peripheral/src/ch32v30x_dbgmcu.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dbgmcu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dbgmcu.c.s
 .PHONY : Peripheral/src/ch32v30x_dbgmcu.c.s
 
 Peripheral/src/ch32v30x_dma.obj: Peripheral/src/ch32v30x_dma.c.obj
@@ -398,7 +398,7 @@ Peripheral/src/ch32v30x_dma.obj: Peripheral/src/ch32v30x_dma.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.obj
 .PHONY : Peripheral/src/ch32v30x_dma.c.obj
 
 Peripheral/src/ch32v30x_dma.i: Peripheral/src/ch32v30x_dma.c.i
@@ -406,7 +406,7 @@ Peripheral/src/ch32v30x_dma.i: Peripheral/src/ch32v30x_dma.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.i
 .PHONY : Peripheral/src/ch32v30x_dma.c.i
 
 Peripheral/src/ch32v30x_dma.s: Peripheral/src/ch32v30x_dma.c.s
@@ -414,7 +414,7 @@ Peripheral/src/ch32v30x_dma.s: Peripheral/src/ch32v30x_dma.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dma.c.s
 .PHONY : Peripheral/src/ch32v30x_dma.c.s
 
 Peripheral/src/ch32v30x_dvp.obj: Peripheral/src/ch32v30x_dvp.c.obj
@@ -422,7 +422,7 @@ Peripheral/src/ch32v30x_dvp.obj: Peripheral/src/ch32v30x_dvp.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_dvp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.obj
 .PHONY : Peripheral/src/ch32v30x_dvp.c.obj
 
 Peripheral/src/ch32v30x_dvp.i: Peripheral/src/ch32v30x_dvp.c.i
@@ -430,7 +430,7 @@ Peripheral/src/ch32v30x_dvp.i: Peripheral/src/ch32v30x_dvp.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_dvp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dvp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.i
 .PHONY : Peripheral/src/ch32v30x_dvp.c.i
 
 Peripheral/src/ch32v30x_dvp.s: Peripheral/src/ch32v30x_dvp.c.s
@@ -438,7 +438,7 @@ Peripheral/src/ch32v30x_dvp.s: Peripheral/src/ch32v30x_dvp.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_dvp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_dvp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_dvp.c.s
 .PHONY : Peripheral/src/ch32v30x_dvp.c.s
 
 Peripheral/src/ch32v30x_eth.obj: Peripheral/src/ch32v30x_eth.c.obj
@@ -446,7 +446,7 @@ Peripheral/src/ch32v30x_eth.obj: Peripheral/src/ch32v30x_eth.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_eth.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_eth.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.obj
 .PHONY : Peripheral/src/ch32v30x_eth.c.obj
 
 Peripheral/src/ch32v30x_eth.i: Peripheral/src/ch32v30x_eth.c.i
@@ -454,7 +454,7 @@ Peripheral/src/ch32v30x_eth.i: Peripheral/src/ch32v30x_eth.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_eth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_eth.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.i
 .PHONY : Peripheral/src/ch32v30x_eth.c.i
 
 Peripheral/src/ch32v30x_eth.s: Peripheral/src/ch32v30x_eth.c.s
@@ -462,7 +462,7 @@ Peripheral/src/ch32v30x_eth.s: Peripheral/src/ch32v30x_eth.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_eth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_eth.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_eth.c.s
 .PHONY : Peripheral/src/ch32v30x_eth.c.s
 
 Peripheral/src/ch32v30x_exti.obj: Peripheral/src/ch32v30x_exti.c.obj
@@ -470,7 +470,7 @@ Peripheral/src/ch32v30x_exti.obj: Peripheral/src/ch32v30x_exti.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_exti.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.obj
 .PHONY : Peripheral/src/ch32v30x_exti.c.obj
 
 Peripheral/src/ch32v30x_exti.i: Peripheral/src/ch32v30x_exti.c.i
@@ -478,7 +478,7 @@ Peripheral/src/ch32v30x_exti.i: Peripheral/src/ch32v30x_exti.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_exti.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.i
 .PHONY : Peripheral/src/ch32v30x_exti.c.i
 
 Peripheral/src/ch32v30x_exti.s: Peripheral/src/ch32v30x_exti.c.s
@@ -486,7 +486,7 @@ Peripheral/src/ch32v30x_exti.s: Peripheral/src/ch32v30x_exti.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_exti.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_exti.c.s
 .PHONY : Peripheral/src/ch32v30x_exti.c.s
 
 Peripheral/src/ch32v30x_flash.obj: Peripheral/src/ch32v30x_flash.c.obj
@@ -494,7 +494,7 @@ Peripheral/src/ch32v30x_flash.obj: Peripheral/src/ch32v30x_flash.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.obj
 .PHONY : Peripheral/src/ch32v30x_flash.c.obj
 
 Peripheral/src/ch32v30x_flash.i: Peripheral/src/ch32v30x_flash.c.i
@@ -502,7 +502,7 @@ Peripheral/src/ch32v30x_flash.i: Peripheral/src/ch32v30x_flash.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.i
 .PHONY : Peripheral/src/ch32v30x_flash.c.i
 
 Peripheral/src/ch32v30x_flash.s: Peripheral/src/ch32v30x_flash.c.s
@@ -510,7 +510,7 @@ Peripheral/src/ch32v30x_flash.s: Peripheral/src/ch32v30x_flash.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_flash.c.s
 .PHONY : Peripheral/src/ch32v30x_flash.c.s
 
 Peripheral/src/ch32v30x_fsmc.obj: Peripheral/src/ch32v30x_fsmc.c.obj
@@ -518,7 +518,7 @@ Peripheral/src/ch32v30x_fsmc.obj: Peripheral/src/ch32v30x_fsmc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_fsmc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.obj
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.obj
 
 Peripheral/src/ch32v30x_fsmc.i: Peripheral/src/ch32v30x_fsmc.c.i
@@ -526,7 +526,7 @@ Peripheral/src/ch32v30x_fsmc.i: Peripheral/src/ch32v30x_fsmc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_fsmc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_fsmc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.i
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.i
 
 Peripheral/src/ch32v30x_fsmc.s: Peripheral/src/ch32v30x_fsmc.c.s
@@ -534,7 +534,7 @@ Peripheral/src/ch32v30x_fsmc.s: Peripheral/src/ch32v30x_fsmc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_fsmc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_fsmc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_fsmc.c.s
 .PHONY : Peripheral/src/ch32v30x_fsmc.c.s
 
 Peripheral/src/ch32v30x_gpio.obj: Peripheral/src/ch32v30x_gpio.c.obj
@@ -542,7 +542,7 @@ Peripheral/src/ch32v30x_gpio.obj: Peripheral/src/ch32v30x_gpio.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.obj
 .PHONY : Peripheral/src/ch32v30x_gpio.c.obj
 
 Peripheral/src/ch32v30x_gpio.i: Peripheral/src/ch32v30x_gpio.c.i
@@ -550,7 +550,7 @@ Peripheral/src/ch32v30x_gpio.i: Peripheral/src/ch32v30x_gpio.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.i
 .PHONY : Peripheral/src/ch32v30x_gpio.c.i
 
 Peripheral/src/ch32v30x_gpio.s: Peripheral/src/ch32v30x_gpio.c.s
@@ -558,7 +558,7 @@ Peripheral/src/ch32v30x_gpio.s: Peripheral/src/ch32v30x_gpio.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_gpio.c.s
 .PHONY : Peripheral/src/ch32v30x_gpio.c.s
 
 Peripheral/src/ch32v30x_i2c.obj: Peripheral/src/ch32v30x_i2c.c.obj
@@ -566,7 +566,7 @@ Peripheral/src/ch32v30x_i2c.obj: Peripheral/src/ch32v30x_i2c.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.obj
 .PHONY : Peripheral/src/ch32v30x_i2c.c.obj
 
 Peripheral/src/ch32v30x_i2c.i: Peripheral/src/ch32v30x_i2c.c.i
@@ -574,7 +574,7 @@ Peripheral/src/ch32v30x_i2c.i: Peripheral/src/ch32v30x_i2c.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.i
 .PHONY : Peripheral/src/ch32v30x_i2c.c.i
 
 Peripheral/src/ch32v30x_i2c.s: Peripheral/src/ch32v30x_i2c.c.s
@@ -582,7 +582,7 @@ Peripheral/src/ch32v30x_i2c.s: Peripheral/src/ch32v30x_i2c.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_i2c.c.s
 .PHONY : Peripheral/src/ch32v30x_i2c.c.s
 
 Peripheral/src/ch32v30x_iwdg.obj: Peripheral/src/ch32v30x_iwdg.c.obj
@@ -590,7 +590,7 @@ Peripheral/src/ch32v30x_iwdg.obj: Peripheral/src/ch32v30x_iwdg.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.obj
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.obj
 
 Peripheral/src/ch32v30x_iwdg.i: Peripheral/src/ch32v30x_iwdg.c.i
@@ -598,7 +598,7 @@ Peripheral/src/ch32v30x_iwdg.i: Peripheral/src/ch32v30x_iwdg.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_iwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.i
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.i
 
 Peripheral/src/ch32v30x_iwdg.s: Peripheral/src/ch32v30x_iwdg.c.s
@@ -606,7 +606,7 @@ Peripheral/src/ch32v30x_iwdg.s: Peripheral/src/ch32v30x_iwdg.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_iwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_iwdg.c.s
 .PHONY : Peripheral/src/ch32v30x_iwdg.c.s
 
 Peripheral/src/ch32v30x_misc.obj: Peripheral/src/ch32v30x_misc.c.obj
@@ -614,7 +614,7 @@ Peripheral/src/ch32v30x_misc.obj: Peripheral/src/ch32v30x_misc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_misc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_misc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.obj
 .PHONY : Peripheral/src/ch32v30x_misc.c.obj
 
 Peripheral/src/ch32v30x_misc.i: Peripheral/src/ch32v30x_misc.c.i
@@ -622,7 +622,7 @@ Peripheral/src/ch32v30x_misc.i: Peripheral/src/ch32v30x_misc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_misc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_misc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.i
 .PHONY : Peripheral/src/ch32v30x_misc.c.i
 
 Peripheral/src/ch32v30x_misc.s: Peripheral/src/ch32v30x_misc.c.s
@@ -630,7 +630,7 @@ Peripheral/src/ch32v30x_misc.s: Peripheral/src/ch32v30x_misc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_misc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_misc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_misc.c.s
 .PHONY : Peripheral/src/ch32v30x_misc.c.s
 
 Peripheral/src/ch32v30x_opa.obj: Peripheral/src/ch32v30x_opa.c.obj
@@ -638,7 +638,7 @@ Peripheral/src/ch32v30x_opa.obj: Peripheral/src/ch32v30x_opa.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_opa.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_opa.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.obj
 .PHONY : Peripheral/src/ch32v30x_opa.c.obj
 
 Peripheral/src/ch32v30x_opa.i: Peripheral/src/ch32v30x_opa.c.i
@@ -646,7 +646,7 @@ Peripheral/src/ch32v30x_opa.i: Peripheral/src/ch32v30x_opa.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_opa.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_opa.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.i
 .PHONY : Peripheral/src/ch32v30x_opa.c.i
 
 Peripheral/src/ch32v30x_opa.s: Peripheral/src/ch32v30x_opa.c.s
@@ -654,7 +654,7 @@ Peripheral/src/ch32v30x_opa.s: Peripheral/src/ch32v30x_opa.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_opa.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_opa.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_opa.c.s
 .PHONY : Peripheral/src/ch32v30x_opa.c.s
 
 Peripheral/src/ch32v30x_pwr.obj: Peripheral/src/ch32v30x_pwr.c.obj
@@ -662,7 +662,7 @@ Peripheral/src/ch32v30x_pwr.obj: Peripheral/src/ch32v30x_pwr.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.obj
 .PHONY : Peripheral/src/ch32v30x_pwr.c.obj
 
 Peripheral/src/ch32v30x_pwr.i: Peripheral/src/ch32v30x_pwr.c.i
@@ -670,7 +670,7 @@ Peripheral/src/ch32v30x_pwr.i: Peripheral/src/ch32v30x_pwr.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_pwr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.i
 .PHONY : Peripheral/src/ch32v30x_pwr.c.i
 
 Peripheral/src/ch32v30x_pwr.s: Peripheral/src/ch32v30x_pwr.c.s
@@ -678,7 +678,7 @@ Peripheral/src/ch32v30x_pwr.s: Peripheral/src/ch32v30x_pwr.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_pwr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_pwr.c.s
 .PHONY : Peripheral/src/ch32v30x_pwr.c.s
 
 Peripheral/src/ch32v30x_rcc.obj: Peripheral/src/ch32v30x_rcc.c.obj
@@ -686,7 +686,7 @@ Peripheral/src/ch32v30x_rcc.obj: Peripheral/src/ch32v30x_rcc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.obj
 .PHONY : Peripheral/src/ch32v30x_rcc.c.obj
 
 Peripheral/src/ch32v30x_rcc.i: Peripheral/src/ch32v30x_rcc.c.i
@@ -694,7 +694,7 @@ Peripheral/src/ch32v30x_rcc.i: Peripheral/src/ch32v30x_rcc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rcc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.i
 .PHONY : Peripheral/src/ch32v30x_rcc.c.i
 
 Peripheral/src/ch32v30x_rcc.s: Peripheral/src/ch32v30x_rcc.c.s
@@ -702,7 +702,7 @@ Peripheral/src/ch32v30x_rcc.s: Peripheral/src/ch32v30x_rcc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rcc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rcc.c.s
 .PHONY : Peripheral/src/ch32v30x_rcc.c.s
 
 Peripheral/src/ch32v30x_rng.obj: Peripheral/src/ch32v30x_rng.c.obj
@@ -710,7 +710,7 @@ Peripheral/src/ch32v30x_rng.obj: Peripheral/src/ch32v30x_rng.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rng.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rng.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.obj
 .PHONY : Peripheral/src/ch32v30x_rng.c.obj
 
 Peripheral/src/ch32v30x_rng.i: Peripheral/src/ch32v30x_rng.c.i
@@ -718,7 +718,7 @@ Peripheral/src/ch32v30x_rng.i: Peripheral/src/ch32v30x_rng.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rng.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rng.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.i
 .PHONY : Peripheral/src/ch32v30x_rng.c.i
 
 Peripheral/src/ch32v30x_rng.s: Peripheral/src/ch32v30x_rng.c.s
@@ -726,7 +726,7 @@ Peripheral/src/ch32v30x_rng.s: Peripheral/src/ch32v30x_rng.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rng.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rng.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rng.c.s
 .PHONY : Peripheral/src/ch32v30x_rng.c.s
 
 Peripheral/src/ch32v30x_rtc.obj: Peripheral/src/ch32v30x_rtc.c.obj
@@ -734,7 +734,7 @@ Peripheral/src/ch32v30x_rtc.obj: Peripheral/src/ch32v30x_rtc.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.obj
 .PHONY : Peripheral/src/ch32v30x_rtc.c.obj
 
 Peripheral/src/ch32v30x_rtc.i: Peripheral/src/ch32v30x_rtc.c.i
@@ -742,7 +742,7 @@ Peripheral/src/ch32v30x_rtc.i: Peripheral/src/ch32v30x_rtc.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.i
 .PHONY : Peripheral/src/ch32v30x_rtc.c.i
 
 Peripheral/src/ch32v30x_rtc.s: Peripheral/src/ch32v30x_rtc.c.s
@@ -750,7 +750,7 @@ Peripheral/src/ch32v30x_rtc.s: Peripheral/src/ch32v30x_rtc.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_rtc.c.s
 .PHONY : Peripheral/src/ch32v30x_rtc.c.s
 
 Peripheral/src/ch32v30x_sdio.obj: Peripheral/src/ch32v30x_sdio.c.obj
@@ -758,7 +758,7 @@ Peripheral/src/ch32v30x_sdio.obj: Peripheral/src/ch32v30x_sdio.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.obj
 .PHONY : Peripheral/src/ch32v30x_sdio.c.obj
 
 Peripheral/src/ch32v30x_sdio.i: Peripheral/src/ch32v30x_sdio.c.i
@@ -766,7 +766,7 @@ Peripheral/src/ch32v30x_sdio.i: Peripheral/src/ch32v30x_sdio.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_sdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.i
 .PHONY : Peripheral/src/ch32v30x_sdio.c.i
 
 Peripheral/src/ch32v30x_sdio.s: Peripheral/src/ch32v30x_sdio.c.s
@@ -774,7 +774,7 @@ Peripheral/src/ch32v30x_sdio.s: Peripheral/src/ch32v30x_sdio.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_sdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_sdio.c.s
 .PHONY : Peripheral/src/ch32v30x_sdio.c.s
 
 Peripheral/src/ch32v30x_spi.obj: Peripheral/src/ch32v30x_spi.c.obj
@@ -782,7 +782,7 @@ Peripheral/src/ch32v30x_spi.obj: Peripheral/src/ch32v30x_spi.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.obj
 .PHONY : Peripheral/src/ch32v30x_spi.c.obj
 
 Peripheral/src/ch32v30x_spi.i: Peripheral/src/ch32v30x_spi.c.i
@@ -790,7 +790,7 @@ Peripheral/src/ch32v30x_spi.i: Peripheral/src/ch32v30x_spi.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.i
 .PHONY : Peripheral/src/ch32v30x_spi.c.i
 
 Peripheral/src/ch32v30x_spi.s: Peripheral/src/ch32v30x_spi.c.s
@@ -798,7 +798,7 @@ Peripheral/src/ch32v30x_spi.s: Peripheral/src/ch32v30x_spi.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_spi.c.s
 .PHONY : Peripheral/src/ch32v30x_spi.c.s
 
 Peripheral/src/ch32v30x_tim.obj: Peripheral/src/ch32v30x_tim.c.obj
@@ -806,7 +806,7 @@ Peripheral/src/ch32v30x_tim.obj: Peripheral/src/ch32v30x_tim.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_tim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.obj
 .PHONY : Peripheral/src/ch32v30x_tim.c.obj
 
 Peripheral/src/ch32v30x_tim.i: Peripheral/src/ch32v30x_tim.c.i
@@ -814,7 +814,7 @@ Peripheral/src/ch32v30x_tim.i: Peripheral/src/ch32v30x_tim.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_tim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.i
 .PHONY : Peripheral/src/ch32v30x_tim.c.i
 
 Peripheral/src/ch32v30x_tim.s: Peripheral/src/ch32v30x_tim.c.s
@@ -822,7 +822,7 @@ Peripheral/src/ch32v30x_tim.s: Peripheral/src/ch32v30x_tim.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_tim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_tim.c.s
 .PHONY : Peripheral/src/ch32v30x_tim.c.s
 
 Peripheral/src/ch32v30x_usart.obj: Peripheral/src/ch32v30x_usart.c.obj
@@ -830,7 +830,7 @@ Peripheral/src/ch32v30x_usart.obj: Peripheral/src/ch32v30x_usart.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_usart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.obj
 .PHONY : Peripheral/src/ch32v30x_usart.c.obj
 
 Peripheral/src/ch32v30x_usart.i: Peripheral/src/ch32v30x_usart.c.i
@@ -838,7 +838,7 @@ Peripheral/src/ch32v30x_usart.i: Peripheral/src/ch32v30x_usart.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_usart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.i
 .PHONY : Peripheral/src/ch32v30x_usart.c.i
 
 Peripheral/src/ch32v30x_usart.s: Peripheral/src/ch32v30x_usart.c.s
@@ -846,7 +846,7 @@ Peripheral/src/ch32v30x_usart.s: Peripheral/src/ch32v30x_usart.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_usart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_usart.c.s
 .PHONY : Peripheral/src/ch32v30x_usart.c.s
 
 Peripheral/src/ch32v30x_wwdg.obj: Peripheral/src/ch32v30x_wwdg.c.obj
@@ -854,7 +854,7 @@ Peripheral/src/ch32v30x_wwdg.obj: Peripheral/src/ch32v30x_wwdg.c.obj
 
 # target to build an object file
 Peripheral/src/ch32v30x_wwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.obj
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.obj
 
 Peripheral/src/ch32v30x_wwdg.i: Peripheral/src/ch32v30x_wwdg.c.i
@@ -862,7 +862,7 @@ Peripheral/src/ch32v30x_wwdg.i: Peripheral/src/ch32v30x_wwdg.c.i
 
 # target to preprocess a source file
 Peripheral/src/ch32v30x_wwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_wwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.i
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.i
 
 Peripheral/src/ch32v30x_wwdg.s: Peripheral/src/ch32v30x_wwdg.c.s
@@ -870,7 +870,7 @@ Peripheral/src/ch32v30x_wwdg.s: Peripheral/src/ch32v30x_wwdg.c.s
 
 # target to generate assembly for a file
 Peripheral/src/ch32v30x_wwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Peripheral/src/ch32v30x_wwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Peripheral/src/ch32v30x_wwdg.c.s
 .PHONY : Peripheral/src/ch32v30x_wwdg.c.s
 
 Startup/startup_ch32v30x_D8C.obj: Startup/startup_ch32v30x_D8C.S.obj
@@ -878,7 +878,7 @@ Startup/startup_ch32v30x_D8C.obj: Startup/startup_ch32v30x_D8C.S.obj
 
 # target to build an object file
 Startup/startup_ch32v30x_D8C.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/Startup/startup_ch32v30x_D8C.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/Startup/startup_ch32v30x_D8C.S.obj
 .PHONY : Startup/startup_ch32v30x_D8C.S.obj
 
 User/ch32v30x_it.obj: User/ch32v30x_it.c.obj
@@ -886,7 +886,7 @@ User/ch32v30x_it.obj: User/ch32v30x_it.c.obj
 
 # target to build an object file
 User/ch32v30x_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/ch32v30x_it.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/ch32v30x_it.c.obj
 .PHONY : User/ch32v30x_it.c.obj
 
 User/ch32v30x_it.i: User/ch32v30x_it.c.i
@@ -894,7 +894,7 @@ User/ch32v30x_it.i: User/ch32v30x_it.c.i
 
 # target to preprocess a source file
 User/ch32v30x_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/ch32v30x_it.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/ch32v30x_it.c.i
 .PHONY : User/ch32v30x_it.c.i
 
 User/ch32v30x_it.s: User/ch32v30x_it.c.s
@@ -902,7 +902,7 @@ User/ch32v30x_it.s: User/ch32v30x_it.c.s
 
 # target to generate assembly for a file
 User/ch32v30x_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/ch32v30x_it.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/ch32v30x_it.c.s
 .PHONY : User/ch32v30x_it.c.s
 
 User/main.obj: User/main.c.obj
@@ -910,7 +910,7 @@ User/main.obj: User/main.c.obj
 
 # target to build an object file
 User/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/main.c.obj
 .PHONY : User/main.c.obj
 
 User/main.i: User/main.c.i
@@ -918,7 +918,7 @@ User/main.i: User/main.c.i
 
 # target to preprocess a source file
 User/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/main.c.i
 .PHONY : User/main.c.i
 
 User/main.s: User/main.c.s
@@ -926,7 +926,7 @@ User/main.s: User/main.c.s
 
 # target to generate assembly for a file
 User/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/main.c.s
 .PHONY : User/main.c.s
 
 User/system_ch32v30x.obj: User/system_ch32v30x.c.obj
@@ -934,7 +934,7 @@ User/system_ch32v30x.obj: User/system_ch32v30x.c.obj
 
 # target to build an object file
 User/system_ch32v30x.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/system_ch32v30x.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/system_ch32v30x.c.obj
 .PHONY : User/system_ch32v30x.c.obj
 
 User/system_ch32v30x.i: User/system_ch32v30x.c.i
@@ -942,7 +942,7 @@ User/system_ch32v30x.i: User/system_ch32v30x.c.i
 
 # target to preprocess a source file
 User/system_ch32v30x.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/system_ch32v30x.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/system_ch32v30x.c.i
 .PHONY : User/system_ch32v30x.c.i
 
 User/system_ch32v30x.s: User/system_ch32v30x.c.s
@@ -950,7 +950,7 @@ User/system_ch32v30x.s: User/system_ch32v30x.c.s
 
 # target to generate assembly for a file
 User/system_ch32v30x.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/User/system_ch32v30x.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/User/system_ch32v30x.c.s
 .PHONY : User/system_ch32v30x.c.s
 
 drivers/drv_gpio.obj: drivers/drv_gpio.c.obj
@@ -958,7 +958,7 @@ drivers/drv_gpio.obj: drivers/drv_gpio.c.obj
 
 # target to build an object file
 drivers/drv_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_gpio.c.obj
 .PHONY : drivers/drv_gpio.c.obj
 
 drivers/drv_gpio.i: drivers/drv_gpio.c.i
@@ -966,7 +966,7 @@ drivers/drv_gpio.i: drivers/drv_gpio.c.i
 
 # target to preprocess a source file
 drivers/drv_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_gpio.c.i
 .PHONY : drivers/drv_gpio.c.i
 
 drivers/drv_gpio.s: drivers/drv_gpio.c.s
@@ -974,7 +974,7 @@ drivers/drv_gpio.s: drivers/drv_gpio.c.s
 
 # target to generate assembly for a file
 drivers/drv_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_gpio.c.s
 .PHONY : drivers/drv_gpio.c.s
 
 drivers/drv_usart.obj: drivers/drv_usart.c.obj
@@ -982,7 +982,7 @@ drivers/drv_usart.obj: drivers/drv_usart.c.obj
 
 # target to build an object file
 drivers/drv_usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_usart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_usart.c.obj
 .PHONY : drivers/drv_usart.c.obj
 
 drivers/drv_usart.i: drivers/drv_usart.c.i
@@ -990,7 +990,7 @@ drivers/drv_usart.i: drivers/drv_usart.c.i
 
 # target to preprocess a source file
 drivers/drv_usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_usart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_usart.c.i
 .PHONY : drivers/drv_usart.c.i
 
 drivers/drv_usart.s: drivers/drv_usart.c.s
@@ -998,7 +998,7 @@ drivers/drv_usart.s: drivers/drv_usart.c.s
 
 # target to generate assembly for a file
 drivers/drv_usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/drivers/drv_usart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/drivers/drv_usart.c.s
 .PHONY : drivers/drv_usart.c.s
 
 rtthread/board.obj: rtthread/board.c.obj
@@ -1006,7 +1006,7 @@ rtthread/board.obj: rtthread/board.c.obj
 
 # target to build an object file
 rtthread/board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/board.c.obj
 .PHONY : rtthread/board.c.obj
 
 rtthread/board.i: rtthread/board.c.i
@@ -1014,7 +1014,7 @@ rtthread/board.i: rtthread/board.c.i
 
 # target to preprocess a source file
 rtthread/board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/board.c.i
 .PHONY : rtthread/board.c.i
 
 rtthread/board.s: rtthread/board.c.s
@@ -1022,7 +1022,7 @@ rtthread/board.s: rtthread/board.c.s
 
 # target to generate assembly for a file
 rtthread/board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/board.c.s
 .PHONY : rtthread/board.c.s
 
 rtthread/components/drivers/misc/pin.obj: rtthread/components/drivers/misc/pin.c.obj
@@ -1030,7 +1030,7 @@ rtthread/components/drivers/misc/pin.obj: rtthread/components/drivers/misc/pin.c
 
 # target to build an object file
 rtthread/components/drivers/misc/pin.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/misc/pin.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/misc/pin.c.obj
 .PHONY : rtthread/components/drivers/misc/pin.c.obj
 
 rtthread/components/drivers/misc/pin.i: rtthread/components/drivers/misc/pin.c.i
@@ -1038,7 +1038,7 @@ rtthread/components/drivers/misc/pin.i: rtthread/components/drivers/misc/pin.c.i
 
 # target to preprocess a source file
 rtthread/components/drivers/misc/pin.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/misc/pin.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/misc/pin.c.i
 .PHONY : rtthread/components/drivers/misc/pin.c.i
 
 rtthread/components/drivers/misc/pin.s: rtthread/components/drivers/misc/pin.c.s
@@ -1046,7 +1046,7 @@ rtthread/components/drivers/misc/pin.s: rtthread/components/drivers/misc/pin.c.s
 
 # target to generate assembly for a file
 rtthread/components/drivers/misc/pin.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/misc/pin.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/misc/pin.c.s
 .PHONY : rtthread/components/drivers/misc/pin.c.s
 
 rtthread/components/drivers/serial/serial.obj: rtthread/components/drivers/serial/serial.c.obj
@@ -1054,7 +1054,7 @@ rtthread/components/drivers/serial/serial.obj: rtthread/components/drivers/seria
 
 # target to build an object file
 rtthread/components/drivers/serial/serial.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/serial/serial.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/serial/serial.c.obj
 .PHONY : rtthread/components/drivers/serial/serial.c.obj
 
 rtthread/components/drivers/serial/serial.i: rtthread/components/drivers/serial/serial.c.i
@@ -1062,7 +1062,7 @@ rtthread/components/drivers/serial/serial.i: rtthread/components/drivers/serial/
 
 # target to preprocess a source file
 rtthread/components/drivers/serial/serial.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/serial/serial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/serial/serial.c.i
 .PHONY : rtthread/components/drivers/serial/serial.c.i
 
 rtthread/components/drivers/serial/serial.s: rtthread/components/drivers/serial/serial.c.s
@@ -1070,7 +1070,7 @@ rtthread/components/drivers/serial/serial.s: rtthread/components/drivers/serial/
 
 # target to generate assembly for a file
 rtthread/components/drivers/serial/serial.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/drivers/serial/serial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/drivers/serial/serial.c.s
 .PHONY : rtthread/components/drivers/serial/serial.c.s
 
 rtthread/components/finsh/cmd.obj: rtthread/components/finsh/cmd.c.obj
@@ -1078,7 +1078,7 @@ rtthread/components/finsh/cmd.obj: rtthread/components/finsh/cmd.c.obj
 
 # target to build an object file
 rtthread/components/finsh/cmd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/cmd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/cmd.c.obj
 .PHONY : rtthread/components/finsh/cmd.c.obj
 
 rtthread/components/finsh/cmd.i: rtthread/components/finsh/cmd.c.i
@@ -1086,7 +1086,7 @@ rtthread/components/finsh/cmd.i: rtthread/components/finsh/cmd.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/cmd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/cmd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/cmd.c.i
 .PHONY : rtthread/components/finsh/cmd.c.i
 
 rtthread/components/finsh/cmd.s: rtthread/components/finsh/cmd.c.s
@@ -1094,7 +1094,7 @@ rtthread/components/finsh/cmd.s: rtthread/components/finsh/cmd.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/cmd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/cmd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/cmd.c.s
 .PHONY : rtthread/components/finsh/cmd.c.s
 
 rtthread/components/finsh/msh.obj: rtthread/components/finsh/msh.c.obj
@@ -1102,7 +1102,7 @@ rtthread/components/finsh/msh.obj: rtthread/components/finsh/msh.c.obj
 
 # target to build an object file
 rtthread/components/finsh/msh.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh.c.obj
 .PHONY : rtthread/components/finsh/msh.c.obj
 
 rtthread/components/finsh/msh.i: rtthread/components/finsh/msh.c.i
@@ -1110,7 +1110,7 @@ rtthread/components/finsh/msh.i: rtthread/components/finsh/msh.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/msh.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh.c.i
 .PHONY : rtthread/components/finsh/msh.c.i
 
 rtthread/components/finsh/msh.s: rtthread/components/finsh/msh.c.s
@@ -1118,7 +1118,7 @@ rtthread/components/finsh/msh.s: rtthread/components/finsh/msh.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/msh.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh.c.s
 .PHONY : rtthread/components/finsh/msh.c.s
 
 rtthread/components/finsh/msh_cmd.obj: rtthread/components/finsh/msh_cmd.c.obj
@@ -1126,7 +1126,7 @@ rtthread/components/finsh/msh_cmd.obj: rtthread/components/finsh/msh_cmd.c.obj
 
 # target to build an object file
 rtthread/components/finsh/msh_cmd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_cmd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_cmd.c.obj
 .PHONY : rtthread/components/finsh/msh_cmd.c.obj
 
 rtthread/components/finsh/msh_cmd.i: rtthread/components/finsh/msh_cmd.c.i
@@ -1134,7 +1134,7 @@ rtthread/components/finsh/msh_cmd.i: rtthread/components/finsh/msh_cmd.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/msh_cmd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_cmd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_cmd.c.i
 .PHONY : rtthread/components/finsh/msh_cmd.c.i
 
 rtthread/components/finsh/msh_cmd.s: rtthread/components/finsh/msh_cmd.c.s
@@ -1142,7 +1142,7 @@ rtthread/components/finsh/msh_cmd.s: rtthread/components/finsh/msh_cmd.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/msh_cmd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_cmd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_cmd.c.s
 .PHONY : rtthread/components/finsh/msh_cmd.c.s
 
 rtthread/components/finsh/msh_file.obj: rtthread/components/finsh/msh_file.c.obj
@@ -1150,7 +1150,7 @@ rtthread/components/finsh/msh_file.obj: rtthread/components/finsh/msh_file.c.obj
 
 # target to build an object file
 rtthread/components/finsh/msh_file.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_file.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_file.c.obj
 .PHONY : rtthread/components/finsh/msh_file.c.obj
 
 rtthread/components/finsh/msh_file.i: rtthread/components/finsh/msh_file.c.i
@@ -1158,7 +1158,7 @@ rtthread/components/finsh/msh_file.i: rtthread/components/finsh/msh_file.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/msh_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_file.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_file.c.i
 .PHONY : rtthread/components/finsh/msh_file.c.i
 
 rtthread/components/finsh/msh_file.s: rtthread/components/finsh/msh_file.c.s
@@ -1166,7 +1166,7 @@ rtthread/components/finsh/msh_file.s: rtthread/components/finsh/msh_file.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/msh_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/msh_file.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/msh_file.c.s
 .PHONY : rtthread/components/finsh/msh_file.c.s
 
 rtthread/components/finsh/shell.obj: rtthread/components/finsh/shell.c.obj
@@ -1174,7 +1174,7 @@ rtthread/components/finsh/shell.obj: rtthread/components/finsh/shell.c.obj
 
 # target to build an object file
 rtthread/components/finsh/shell.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/shell.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/shell.c.obj
 .PHONY : rtthread/components/finsh/shell.c.obj
 
 rtthread/components/finsh/shell.i: rtthread/components/finsh/shell.c.i
@@ -1182,7 +1182,7 @@ rtthread/components/finsh/shell.i: rtthread/components/finsh/shell.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/shell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/shell.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/shell.c.i
 .PHONY : rtthread/components/finsh/shell.c.i
 
 rtthread/components/finsh/shell.s: rtthread/components/finsh/shell.c.s
@@ -1190,7 +1190,7 @@ rtthread/components/finsh/shell.s: rtthread/components/finsh/shell.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/shell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/shell.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/shell.c.s
 .PHONY : rtthread/components/finsh/shell.c.s
 
 rtthread/components/finsh/symbol.obj: rtthread/components/finsh/symbol.c.obj
@@ -1198,7 +1198,7 @@ rtthread/components/finsh/symbol.obj: rtthread/components/finsh/symbol.c.obj
 
 # target to build an object file
 rtthread/components/finsh/symbol.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/symbol.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/symbol.c.obj
 .PHONY : rtthread/components/finsh/symbol.c.obj
 
 rtthread/components/finsh/symbol.i: rtthread/components/finsh/symbol.c.i
@@ -1206,7 +1206,7 @@ rtthread/components/finsh/symbol.i: rtthread/components/finsh/symbol.c.i
 
 # target to preprocess a source file
 rtthread/components/finsh/symbol.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/symbol.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/symbol.c.i
 .PHONY : rtthread/components/finsh/symbol.c.i
 
 rtthread/components/finsh/symbol.s: rtthread/components/finsh/symbol.c.s
@@ -1214,7 +1214,7 @@ rtthread/components/finsh/symbol.s: rtthread/components/finsh/symbol.c.s
 
 # target to generate assembly for a file
 rtthread/components/finsh/symbol.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/components/finsh/symbol.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/components/finsh/symbol.c.s
 .PHONY : rtthread/components/finsh/symbol.c.s
 
 rtthread/libcpu/risc-v/common/context_gcc.obj: rtthread/libcpu/risc-v/common/context_gcc.S.obj
@@ -1222,7 +1222,7 @@ rtthread/libcpu/risc-v/common/context_gcc.obj: rtthread/libcpu/risc-v/common/con
 
 # target to build an object file
 rtthread/libcpu/risc-v/common/context_gcc.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/libcpu/risc-v/common/context_gcc.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/libcpu/risc-v/common/context_gcc.S.obj
 .PHONY : rtthread/libcpu/risc-v/common/context_gcc.S.obj
 
 rtthread/libcpu/risc-v/common/cpuport.obj: rtthread/libcpu/risc-v/common/cpuport.c.obj
@@ -1230,7 +1230,7 @@ rtthread/libcpu/risc-v/common/cpuport.obj: rtthread/libcpu/risc-v/common/cpuport
 
 # target to build an object file
 rtthread/libcpu/risc-v/common/cpuport.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.obj
 .PHONY : rtthread/libcpu/risc-v/common/cpuport.c.obj
 
 rtthread/libcpu/risc-v/common/cpuport.i: rtthread/libcpu/risc-v/common/cpuport.c.i
@@ -1238,7 +1238,7 @@ rtthread/libcpu/risc-v/common/cpuport.i: rtthread/libcpu/risc-v/common/cpuport.c
 
 # target to preprocess a source file
 rtthread/libcpu/risc-v/common/cpuport.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.i
 .PHONY : rtthread/libcpu/risc-v/common/cpuport.c.i
 
 rtthread/libcpu/risc-v/common/cpuport.s: rtthread/libcpu/risc-v/common/cpuport.c.s
@@ -1246,7 +1246,7 @@ rtthread/libcpu/risc-v/common/cpuport.s: rtthread/libcpu/risc-v/common/cpuport.c
 
 # target to generate assembly for a file
 rtthread/libcpu/risc-v/common/cpuport.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/libcpu/risc-v/common/cpuport.c.s
 .PHONY : rtthread/libcpu/risc-v/common/cpuport.c.s
 
 rtthread/libcpu/risc-v/common/interrupt_gcc.obj: rtthread/libcpu/risc-v/common/interrupt_gcc.S.obj
@@ -1254,7 +1254,7 @@ rtthread/libcpu/risc-v/common/interrupt_gcc.obj: rtthread/libcpu/risc-v/common/i
 
 # target to build an object file
 rtthread/libcpu/risc-v/common/interrupt_gcc.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/libcpu/risc-v/common/interrupt_gcc.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/libcpu/risc-v/common/interrupt_gcc.S.obj
 .PHONY : rtthread/libcpu/risc-v/common/interrupt_gcc.S.obj
 
 rtthread/src/clock.obj: rtthread/src/clock.c.obj
@@ -1262,7 +1262,7 @@ rtthread/src/clock.obj: rtthread/src/clock.c.obj
 
 # target to build an object file
 rtthread/src/clock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/clock.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/clock.c.obj
 .PHONY : rtthread/src/clock.c.obj
 
 rtthread/src/clock.i: rtthread/src/clock.c.i
@@ -1270,7 +1270,7 @@ rtthread/src/clock.i: rtthread/src/clock.c.i
 
 # target to preprocess a source file
 rtthread/src/clock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/clock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/clock.c.i
 .PHONY : rtthread/src/clock.c.i
 
 rtthread/src/clock.s: rtthread/src/clock.c.s
@@ -1278,7 +1278,7 @@ rtthread/src/clock.s: rtthread/src/clock.c.s
 
 # target to generate assembly for a file
 rtthread/src/clock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/clock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/clock.c.s
 .PHONY : rtthread/src/clock.c.s
 
 rtthread/src/components.obj: rtthread/src/components.c.obj
@@ -1286,7 +1286,7 @@ rtthread/src/components.obj: rtthread/src/components.c.obj
 
 # target to build an object file
 rtthread/src/components.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/components.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/components.c.obj
 .PHONY : rtthread/src/components.c.obj
 
 rtthread/src/components.i: rtthread/src/components.c.i
@@ -1294,7 +1294,7 @@ rtthread/src/components.i: rtthread/src/components.c.i
 
 # target to preprocess a source file
 rtthread/src/components.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/components.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/components.c.i
 .PHONY : rtthread/src/components.c.i
 
 rtthread/src/components.s: rtthread/src/components.c.s
@@ -1302,7 +1302,7 @@ rtthread/src/components.s: rtthread/src/components.c.s
 
 # target to generate assembly for a file
 rtthread/src/components.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/components.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/components.c.s
 .PHONY : rtthread/src/components.c.s
 
 rtthread/src/cpu.obj: rtthread/src/cpu.c.obj
@@ -1310,7 +1310,7 @@ rtthread/src/cpu.obj: rtthread/src/cpu.c.obj
 
 # target to build an object file
 rtthread/src/cpu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/cpu.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/cpu.c.obj
 .PHONY : rtthread/src/cpu.c.obj
 
 rtthread/src/cpu.i: rtthread/src/cpu.c.i
@@ -1318,7 +1318,7 @@ rtthread/src/cpu.i: rtthread/src/cpu.c.i
 
 # target to preprocess a source file
 rtthread/src/cpu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/cpu.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/cpu.c.i
 .PHONY : rtthread/src/cpu.c.i
 
 rtthread/src/cpu.s: rtthread/src/cpu.c.s
@@ -1326,7 +1326,7 @@ rtthread/src/cpu.s: rtthread/src/cpu.c.s
 
 # target to generate assembly for a file
 rtthread/src/cpu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/cpu.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/cpu.c.s
 .PHONY : rtthread/src/cpu.c.s
 
 rtthread/src/device.obj: rtthread/src/device.c.obj
@@ -1334,7 +1334,7 @@ rtthread/src/device.obj: rtthread/src/device.c.obj
 
 # target to build an object file
 rtthread/src/device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/device.c.obj
 .PHONY : rtthread/src/device.c.obj
 
 rtthread/src/device.i: rtthread/src/device.c.i
@@ -1342,7 +1342,7 @@ rtthread/src/device.i: rtthread/src/device.c.i
 
 # target to preprocess a source file
 rtthread/src/device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/device.c.i
 .PHONY : rtthread/src/device.c.i
 
 rtthread/src/device.s: rtthread/src/device.c.s
@@ -1350,7 +1350,7 @@ rtthread/src/device.s: rtthread/src/device.c.s
 
 # target to generate assembly for a file
 rtthread/src/device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/device.c.s
 .PHONY : rtthread/src/device.c.s
 
 rtthread/src/idle.obj: rtthread/src/idle.c.obj
@@ -1358,7 +1358,7 @@ rtthread/src/idle.obj: rtthread/src/idle.c.obj
 
 # target to build an object file
 rtthread/src/idle.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/idle.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/idle.c.obj
 .PHONY : rtthread/src/idle.c.obj
 
 rtthread/src/idle.i: rtthread/src/idle.c.i
@@ -1366,7 +1366,7 @@ rtthread/src/idle.i: rtthread/src/idle.c.i
 
 # target to preprocess a source file
 rtthread/src/idle.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/idle.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/idle.c.i
 .PHONY : rtthread/src/idle.c.i
 
 rtthread/src/idle.s: rtthread/src/idle.c.s
@@ -1374,7 +1374,7 @@ rtthread/src/idle.s: rtthread/src/idle.c.s
 
 # target to generate assembly for a file
 rtthread/src/idle.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/idle.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/idle.c.s
 .PHONY : rtthread/src/idle.c.s
 
 rtthread/src/ipc.obj: rtthread/src/ipc.c.obj
@@ -1382,7 +1382,7 @@ rtthread/src/ipc.obj: rtthread/src/ipc.c.obj
 
 # target to build an object file
 rtthread/src/ipc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/ipc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/ipc.c.obj
 .PHONY : rtthread/src/ipc.c.obj
 
 rtthread/src/ipc.i: rtthread/src/ipc.c.i
@@ -1390,7 +1390,7 @@ rtthread/src/ipc.i: rtthread/src/ipc.c.i
 
 # target to preprocess a source file
 rtthread/src/ipc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/ipc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/ipc.c.i
 .PHONY : rtthread/src/ipc.c.i
 
 rtthread/src/ipc.s: rtthread/src/ipc.c.s
@@ -1398,7 +1398,7 @@ rtthread/src/ipc.s: rtthread/src/ipc.c.s
 
 # target to generate assembly for a file
 rtthread/src/ipc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/ipc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/ipc.c.s
 .PHONY : rtthread/src/ipc.c.s
 
 rtthread/src/irq.obj: rtthread/src/irq.c.obj
@@ -1406,7 +1406,7 @@ rtthread/src/irq.obj: rtthread/src/irq.c.obj
 
 # target to build an object file
 rtthread/src/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/irq.c.obj
 .PHONY : rtthread/src/irq.c.obj
 
 rtthread/src/irq.i: rtthread/src/irq.c.i
@@ -1414,7 +1414,7 @@ rtthread/src/irq.i: rtthread/src/irq.c.i
 
 # target to preprocess a source file
 rtthread/src/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/irq.c.i
 .PHONY : rtthread/src/irq.c.i
 
 rtthread/src/irq.s: rtthread/src/irq.c.s
@@ -1422,7 +1422,7 @@ rtthread/src/irq.s: rtthread/src/irq.c.s
 
 # target to generate assembly for a file
 rtthread/src/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/irq.c.s
 .PHONY : rtthread/src/irq.c.s
 
 rtthread/src/kservice.obj: rtthread/src/kservice.c.obj
@@ -1430,7 +1430,7 @@ rtthread/src/kservice.obj: rtthread/src/kservice.c.obj
 
 # target to build an object file
 rtthread/src/kservice.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/kservice.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/kservice.c.obj
 .PHONY : rtthread/src/kservice.c.obj
 
 rtthread/src/kservice.i: rtthread/src/kservice.c.i
@@ -1438,7 +1438,7 @@ rtthread/src/kservice.i: rtthread/src/kservice.c.i
 
 # target to preprocess a source file
 rtthread/src/kservice.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/kservice.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/kservice.c.i
 .PHONY : rtthread/src/kservice.c.i
 
 rtthread/src/kservice.s: rtthread/src/kservice.c.s
@@ -1446,7 +1446,7 @@ rtthread/src/kservice.s: rtthread/src/kservice.c.s
 
 # target to generate assembly for a file
 rtthread/src/kservice.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/kservice.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/kservice.c.s
 .PHONY : rtthread/src/kservice.c.s
 
 rtthread/src/mem.obj: rtthread/src/mem.c.obj
@@ -1454,7 +1454,7 @@ rtthread/src/mem.obj: rtthread/src/mem.c.obj
 
 # target to build an object file
 rtthread/src/mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mem.c.obj
 .PHONY : rtthread/src/mem.c.obj
 
 rtthread/src/mem.i: rtthread/src/mem.c.i
@@ -1462,7 +1462,7 @@ rtthread/src/mem.i: rtthread/src/mem.c.i
 
 # target to preprocess a source file
 rtthread/src/mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mem.c.i
 .PHONY : rtthread/src/mem.c.i
 
 rtthread/src/mem.s: rtthread/src/mem.c.s
@@ -1470,7 +1470,7 @@ rtthread/src/mem.s: rtthread/src/mem.c.s
 
 # target to generate assembly for a file
 rtthread/src/mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mem.c.s
 .PHONY : rtthread/src/mem.c.s
 
 rtthread/src/memheap.obj: rtthread/src/memheap.c.obj
@@ -1478,7 +1478,7 @@ rtthread/src/memheap.obj: rtthread/src/memheap.c.obj
 
 # target to build an object file
 rtthread/src/memheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/memheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/memheap.c.obj
 .PHONY : rtthread/src/memheap.c.obj
 
 rtthread/src/memheap.i: rtthread/src/memheap.c.i
@@ -1486,7 +1486,7 @@ rtthread/src/memheap.i: rtthread/src/memheap.c.i
 
 # target to preprocess a source file
 rtthread/src/memheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/memheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/memheap.c.i
 .PHONY : rtthread/src/memheap.c.i
 
 rtthread/src/memheap.s: rtthread/src/memheap.c.s
@@ -1494,7 +1494,7 @@ rtthread/src/memheap.s: rtthread/src/memheap.c.s
 
 # target to generate assembly for a file
 rtthread/src/memheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/memheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/memheap.c.s
 .PHONY : rtthread/src/memheap.c.s
 
 rtthread/src/mempool.obj: rtthread/src/mempool.c.obj
@@ -1502,7 +1502,7 @@ rtthread/src/mempool.obj: rtthread/src/mempool.c.obj
 
 # target to build an object file
 rtthread/src/mempool.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mempool.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mempool.c.obj
 .PHONY : rtthread/src/mempool.c.obj
 
 rtthread/src/mempool.i: rtthread/src/mempool.c.i
@@ -1510,7 +1510,7 @@ rtthread/src/mempool.i: rtthread/src/mempool.c.i
 
 # target to preprocess a source file
 rtthread/src/mempool.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mempool.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mempool.c.i
 .PHONY : rtthread/src/mempool.c.i
 
 rtthread/src/mempool.s: rtthread/src/mempool.c.s
@@ -1518,7 +1518,7 @@ rtthread/src/mempool.s: rtthread/src/mempool.c.s
 
 # target to generate assembly for a file
 rtthread/src/mempool.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/mempool.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/mempool.c.s
 .PHONY : rtthread/src/mempool.c.s
 
 rtthread/src/object.obj: rtthread/src/object.c.obj
@@ -1526,7 +1526,7 @@ rtthread/src/object.obj: rtthread/src/object.c.obj
 
 # target to build an object file
 rtthread/src/object.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/object.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/object.c.obj
 .PHONY : rtthread/src/object.c.obj
 
 rtthread/src/object.i: rtthread/src/object.c.i
@@ -1534,7 +1534,7 @@ rtthread/src/object.i: rtthread/src/object.c.i
 
 # target to preprocess a source file
 rtthread/src/object.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/object.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/object.c.i
 .PHONY : rtthread/src/object.c.i
 
 rtthread/src/object.s: rtthread/src/object.c.s
@@ -1542,7 +1542,7 @@ rtthread/src/object.s: rtthread/src/object.c.s
 
 # target to generate assembly for a file
 rtthread/src/object.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/object.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/object.c.s
 .PHONY : rtthread/src/object.c.s
 
 rtthread/src/scheduler.obj: rtthread/src/scheduler.c.obj
@@ -1550,7 +1550,7 @@ rtthread/src/scheduler.obj: rtthread/src/scheduler.c.obj
 
 # target to build an object file
 rtthread/src/scheduler.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/scheduler.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/scheduler.c.obj
 .PHONY : rtthread/src/scheduler.c.obj
 
 rtthread/src/scheduler.i: rtthread/src/scheduler.c.i
@@ -1558,7 +1558,7 @@ rtthread/src/scheduler.i: rtthread/src/scheduler.c.i
 
 # target to preprocess a source file
 rtthread/src/scheduler.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/scheduler.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/scheduler.c.i
 .PHONY : rtthread/src/scheduler.c.i
 
 rtthread/src/scheduler.s: rtthread/src/scheduler.c.s
@@ -1566,7 +1566,7 @@ rtthread/src/scheduler.s: rtthread/src/scheduler.c.s
 
 # target to generate assembly for a file
 rtthread/src/scheduler.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/scheduler.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/scheduler.c.s
 .PHONY : rtthread/src/scheduler.c.s
 
 rtthread/src/slab.obj: rtthread/src/slab.c.obj
@@ -1574,7 +1574,7 @@ rtthread/src/slab.obj: rtthread/src/slab.c.obj
 
 # target to build an object file
 rtthread/src/slab.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/slab.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/slab.c.obj
 .PHONY : rtthread/src/slab.c.obj
 
 rtthread/src/slab.i: rtthread/src/slab.c.i
@@ -1582,7 +1582,7 @@ rtthread/src/slab.i: rtthread/src/slab.c.i
 
 # target to preprocess a source file
 rtthread/src/slab.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/slab.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/slab.c.i
 .PHONY : rtthread/src/slab.c.i
 
 rtthread/src/slab.s: rtthread/src/slab.c.s
@@ -1590,7 +1590,7 @@ rtthread/src/slab.s: rtthread/src/slab.c.s
 
 # target to generate assembly for a file
 rtthread/src/slab.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/slab.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/slab.c.s
 .PHONY : rtthread/src/slab.c.s
 
 rtthread/src/thread.obj: rtthread/src/thread.c.obj
@@ -1598,7 +1598,7 @@ rtthread/src/thread.obj: rtthread/src/thread.c.obj
 
 # target to build an object file
 rtthread/src/thread.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/thread.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/thread.c.obj
 .PHONY : rtthread/src/thread.c.obj
 
 rtthread/src/thread.i: rtthread/src/thread.c.i
@@ -1606,7 +1606,7 @@ rtthread/src/thread.i: rtthread/src/thread.c.i
 
 # target to preprocess a source file
 rtthread/src/thread.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/thread.c.i
 .PHONY : rtthread/src/thread.c.i
 
 rtthread/src/thread.s: rtthread/src/thread.c.s
@@ -1614,7 +1614,7 @@ rtthread/src/thread.s: rtthread/src/thread.c.s
 
 # target to generate assembly for a file
 rtthread/src/thread.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/thread.c.s
 .PHONY : rtthread/src/thread.c.s
 
 rtthread/src/timer.obj: rtthread/src/timer.c.obj
@@ -1622,7 +1622,7 @@ rtthread/src/timer.obj: rtthread/src/timer.c.obj
 
 # target to build an object file
 rtthread/src/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/timer.c.obj
 .PHONY : rtthread/src/timer.c.obj
 
 rtthread/src/timer.i: rtthread/src/timer.c.i
@@ -1630,7 +1630,7 @@ rtthread/src/timer.i: rtthread/src/timer.c.i
 
 # target to preprocess a source file
 rtthread/src/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/timer.c.i
 .PHONY : rtthread/src/timer.c.i
 
 rtthread/src/timer.s: rtthread/src/timer.c.s
@@ -1638,7 +1638,7 @@ rtthread/src/timer.s: rtthread/src/timer.c.s
 
 # target to generate assembly for a file
 rtthread/src/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/build.make CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/rtthread/src/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/build.make CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/rtthread/src/timer.c.s
 .PHONY : rtthread/src/timer.c.s
 
 # Help Target
@@ -1649,7 +1649,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CH32V307VCT6_RT_Thread_test.elf"
+	@echo "... CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf"
 	@echo "... App/Drivers/Led/led.obj"
 	@echo "... App/Drivers/Led/led.i"
 	@echo "... App/Drivers/Led/led.s"

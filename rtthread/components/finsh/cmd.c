@@ -66,7 +66,7 @@ MSH_CMD_EXPORT(hello, say hello world);
 
 
 
-/* ¸´Î»ÃüÁî */
+/* ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ */
 long reboot(void)
 {
     NVIC_SystemReset();
@@ -596,9 +596,7 @@ static long _list_device(struct rt_list_node *list)
         rt_kprintf("%-*.*s %-20s %-8d\n",
                    maxlen, RT_NAME_MAX,
                    device->parent.name,
-                   (device->type <= RT_Device_Class_Unknown) ?
-                   device_type_str[device->type] :
-                   device_type_str[RT_Device_Class_Unknown],
+                   (device->type <= RT_Device_Class_Unknown) ? device_type_str[device->type] : device_type_str[RT_Device_Class_Unknown - 1],
                    device->ref_count);
     }
 

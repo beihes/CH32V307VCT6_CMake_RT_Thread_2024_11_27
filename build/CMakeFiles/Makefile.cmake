@@ -128,5 +128,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/CH32V307VCT6_RT_Thread_test.elf.dir/DependInfo.cmake"
+  "CMakeFiles/CH32V307VCT6_CMake_RT_Thread_2024_11_27.elf.dir/DependInfo.cmake"
   )

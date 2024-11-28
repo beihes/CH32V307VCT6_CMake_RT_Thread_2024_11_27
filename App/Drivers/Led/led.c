@@ -22,7 +22,7 @@ int led(void)
     rt_uint8_t count;
 
     rt_pin_mode(LED0_PIN, PIN_MODE_OUTPUT);
-    printf("led_SP:%08x\r\n",__get_SP());
+    printf("led_SP:%08lx\r\n",__get_SP());
     for(count = 0 ; count < 10 ;count++)
     {
         rt_pin_write(LED0_PIN, PIN_LOW);
